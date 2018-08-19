@@ -18,7 +18,9 @@ module.exports = {
     rules: [
      { test:/\.css$/,use:["style-loader",'css-loader'],},
      { test:/\.scss$/,use:["style-loader",'css-loader','sass-loader'],},
-      {test:/\.(jpg|png|gif|jpeg|bmp)$/,use:["url-loader"],}
+      {test:/\.(jpg|png|gif|jpeg|bmp)$/,use:["url-loader"],},
+      {test:/\.(ttf|eot|svg|woff|woff2)$/,use:["url-loader"],},
+      {test:/\.js$/,use:"babel-loader",exclude:/node_modules/,},
     ]
   },
   resolve: {
@@ -30,5 +32,9 @@ module.exports = {
       template:path.join(__dirname,"./src/index.html"),
       filename:"index.html"
     })
-  ]
+  ],
+  resolve:{
+    alias:{"vue$":"vue/dist/vue.js"
+  }
+  }
 };
