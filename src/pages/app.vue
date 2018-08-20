@@ -6,8 +6,8 @@
 			<h1 class="mui-title">vue项目实践</h1>
 		</header>
      <!-- content -->
-     <h1>你好，vue.js</h1>
-     <router-view></router-view>
+		 <router-view></router-view>
+    
      <!-- footer -->
      <nav class="mui-bar mui-bar-tab">
 			<router-link class="mui-tab-item " to="/home">

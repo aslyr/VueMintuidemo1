@@ -12,7 +12,7 @@ module.exports = {
     open: true,
     port: 3000,
     contentBase: "src",
-    hot: true
+    hot: false
   },
   module: {
     rules: [{
