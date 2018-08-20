@@ -1,5 +1,6 @@
 import "mint-ui/lib/style.css"
 import "./lib/mui/css/mui.min.css"
+import "./lib/mui/css/icons-extra.css"
 import Vue from "vue"
 import {Header} from "mint-ui"
 import VueRouter from "vue-router"
