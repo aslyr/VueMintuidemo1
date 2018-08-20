@@ -2,6 +2,7 @@
     <div>
         <h1>home</h1>
         <p>{{msg}}</p>
+        <button type="button" class="mui-btn mui-btn-royal">紫色</button> 
     </div>
 </template>
 <script>
